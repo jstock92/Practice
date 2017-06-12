@@ -17,6 +17,15 @@ public class RedWings extends Team {
 		
 	}
 	
+	public RedWings(){
+		
+		this.numPlayers = numPlayers;
+		this.city = city;
+		this.salaryCap = salaryCap;
+		this.logo = logo;
+		
+	}
+	
 	public String toString()
 	{
 		System.out.println(this.sport);

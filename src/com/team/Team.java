@@ -18,5 +18,16 @@ public class Team {
 		
 		
 	}
+	
+	public Team (){
+		
+		this.sport = sport;
+		this.numPlayers = numPlayers;
+		this.city = city;
+		this.salaryCap = salaryCap;
+		this.logo = logo;
+		
+		
+	}
 
 }
