@@ -25,5 +25,15 @@ public class Dodge extends Car{
 		return 200;
 		
 	}
+	
+	public String toString()
+	{
+		System.out.println(this.color);
+		System.out.println(this.year);
+		System.out.println(this.speed);
+		System.out.println(this.model);
+	    return getClass().getName() + "@" + Integer.toHexString(hashCode());
+	}
+	
 
 }

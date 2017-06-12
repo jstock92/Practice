@@ -16,10 +16,7 @@ public static void main (String args[])
 	
 	// Create a Dodge
 	Dodge car1 = new Dodge("red", 2017, true);
-	System.out.println(car1.color);
-	System.out.println(car1.year);
-	System.out.println(car1.speed);
-	System.out.println(car1.model);
+	System.out.println(car1);
 	
 	// Check if the Dodge is a Charger
 	if (car1.model == "Charger")
